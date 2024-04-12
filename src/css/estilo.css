@@ -1,0 +1,76 @@
+@font-face {
+    font-family: ftn1;
+    src: url("../imagens/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: ftn2;
+    src: url("../imagens/Outfit-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: ftn3;
+    src: url("../imagens/Outfit-Thin.ttf");
+}
+
+body{
+    background-color: beige;
+}
+
+
+.container .img{
+    width: 100%;
+    padding: 30px 15px 0 15px;
+    border-radius: 40px 40px 0 0;
+}
+
+.informacoes{
+    background-color: white;
+    padding: 20px 20px;
+    margin: 0 15px 15px 15px;
+}
+
+.informacoes h3{
+    padding: 20px 20px 20px 10px;
+    font-family: ftn2;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.informacoes h1{
+    padding: 0 20px 20px 10px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.informacoes p{
+    padding: 0 5px 20px 10px;
+    color: rgba(0, 0, 0, 0.381);
+    font-family: ftn2;
+}
+
+.preco{
+    display: flex;
+}
+
+.preco h1{
+    color: rgb(12, 108, 12);
+}
+.preco p{
+    padding: 10px 0 0 0;
+}
+
+.menu {
+   width: 100%;
+   padding: 20px;
+   background-color: rgba(0, 128, 0, 0.778);
+   color: white;
+   font-size: 15px;
+   gap: 10px;
+   border-radius: 10px;
+
+}
+
+.menu:hover {
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
